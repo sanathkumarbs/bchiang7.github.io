@@ -1,23 +1,23 @@
 'use strict';
 
 const gulp        = require('gulp');
+const sass        = require('./build/tasks/sass');
+const js          = require('./build/tasks/js');
+const images      = require('./build/tasks/images');
+const sync        = require('./build/tasks/browsersync');
 
 // const sass        = require('gulp-sass');
 // const prefix      = require('gulp-autoprefixer');
 // const cleanCSS    = require('gulp-clean-css');
-const sass        = require('./build/tasks/sass');
 
 // const jshint      = require('gulp-jshint');
 // const babel       = require('gulp-babel');
 // const uglify      = require('gulp-uglify');
-const js          = require('./build/tasks/js');
 
 // const imagemin    = require('gulp-imagemin');
-const images      = require('./build/tasks/images');
 
 // const browserSync = require('browser-sync');
 // const cp          = require('child_process');
-const sync        = require('./build/tasks/browsersync');
 
 
 // const jekyll      = process.platform === 'win32' ? 'jekyll.bat' : 'jekyll';

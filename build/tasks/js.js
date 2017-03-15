@@ -23,7 +23,7 @@ module.exports = gulp => {
     .pipe(babel({
       presets: ['es2015']
     }))
-    .pipe(uglify())
+    // .pipe(uglify())
     .pipe(gulp.dest('_site/js'))
     // .pipe(browserSync.reload({stream:true}))
     .pipe(gulp.dest('js'));

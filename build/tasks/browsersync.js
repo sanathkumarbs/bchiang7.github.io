@@ -5,39 +5,28 @@ const projectRoot = '_site';
 
 const scssPath = '_scss/**/*.scss';
 const jsPath = '_scripts/*.js';
-const templatesPaths = [ 'src/+(pages|templates)/**/*.njs' ];
+// const templatesPaths = [ 'src/+(pages|templates)/**/*.njs' ];
+const templatesPaths = ['index.html', '404.html', '_layouts/*.html', '_includes/*.html', '_data/*.yml', '_posts/*', '_drafts/*', '**/*.html'];
 
-const jekyll      = process.platform === 'win32' ? 'jekyll.bat' : 'jekyll';
+// const jekyll      = process.platform === 'win32' ? 'jekyll.bat' : 'jekyll';
 
-const messages = {
-  jekyllDev: 'Running: $ jekyll build for dev',
-  jekyllProd: 'Running: $ jekyll build for prod'
-};
 
 module.exports = gulp => {
 
-  // Build the Jekyll Site
-  gulp.task('jekyll-dev', done => {
-    browserSync.notify(messages.jekyllDev);
-
-    return cp.spawn( jekyll , ['build', '--drafts', '--config', '_config.yml'], {stdio: 'inherit'})
+  // jekyll build
+  gulp.task('jekyll-build', done => {
+    console.log('Running jekyll build ____________________________________');
+    // browserSync.notify('Running jekyll build');
+    return cp.spawn( 'jekyll' , ['build', '--incremental'], {stdio: 'inherit'})
     .on('close', done);
-
   });
 
-  // Rebuild Jekyll & reload the page
-  gulp.task('jekyll-rebuild', ['jekyll-dev'], () => {
+  // Rebuild Jekyll & reload
+  gulp.task('jekyll-rebuild', ['jekyll-build'], () => {
     browserSync.reload();
+    console.log('after reload ____________________________________');
   });
 
-  // Wait for jekyll-dev task to complete, then launch the Server
-  gulp.task('browser-sync', ['styles', 'scripts', 'jekyll-dev'], () => {
-    browserSync({
-      server: {
-        baseDir: '_site'
-      }
-    });
-  });
 
   gulp.task( 'serve', () => {
     browserSync.init({
@@ -49,8 +38,7 @@ module.exports = gulp => {
 
     gulp.watch( scssPath, [ 'styles', browserSync.reload ] );
     gulp.watch( jsPath, [ 'scripts', browserSync.reload ] );
-    // gulp.watch( templatesPaths, [ 'templates', browserSync.reload ] );
-    gulp.watch(['index.html', '404.html', '_layouts/*.html', '_includes/*.html', '_data/*.yml', '_posts/*', '_drafts/*', '**/*.html'], ['jekyll-rebuild']);
+    gulp.watch( templatesPaths, ['jekyll-rebuild']);
   });
 
 }
