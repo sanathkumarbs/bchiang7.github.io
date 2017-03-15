@@ -1,4 +1,4 @@
-const imagemin    = require('gulp-imagemin');
+const imagemin = require('gulp-imagemin');
 
 const imgPath = 'img/**/*.+(png|jpg|gif|svg)';
 const distPath = '_site/img';

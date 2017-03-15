@@ -1,5 +1,5 @@
 const fontsPath = 'fonts/**/*';
-const distPath = '_site/fonts';
+const distPath  = '_site/fonts';
 
 module.exports = gulp => {
 

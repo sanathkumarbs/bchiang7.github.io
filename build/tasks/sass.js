@@ -1,6 +1,6 @@
-const sass = require('gulp-sass');
-const autoprefixer = require('gulp-autoprefixer');
-const cleanCSS    = require('gulp-clean-css');
+const sass          = require('gulp-sass');
+const autoprefixer  = require('gulp-autoprefixer');
+const cleanCSS      = require('gulp-clean-css');
 
 const srcPath = '_scss/*.scss';
 const destPath = '_site/css';
