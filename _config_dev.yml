@@ -1,26 +1,24 @@
 # Site settings
-name: Brittany Chiang
-title: Brittany Chiang | Front End Software Engineer
-description: Design-minded front-end software engineer focused on building beautiful interfaces and experiences
-url: https://brittanychiang.com/
+name: Sanath Kumar
+title: Sanath Kumar | Software Engineer
+description: Software engineer focused on building products, services to make customers and engineers life better
+url: https://sanathk.com/
 baseurl: ""
-email: brittany.chiang@gmail.com
-cover: https://brittanychiang.com/img/og.png
-logo: https://brittanychiang.com/img/emojis/technologist.png
-resume: https://brittanychiang.com/resume.pdf
+email: sanath@sanathk.com
+cover: https://sanathk.com/img/og.png
+logo: https://sanathk.com/img/emojis/technologist.png
+resume: https://sanathk.com/resume.pdf
 social:
   - title: email
-    url: mailto:brittany.chiang@gmail.com
-  - title: twitter
-    url: https://twitter.com/bchiang7
-  - title: instagram
-    url: https://instagram.com/bchiang7
-  - title: codepen
-    url: http://codepen.io/bchiang7
-  - title: github
-    url: https://github.com/bchiang7
+    url: mailto:sanath@sanathk.com
   - title: linkedin
-    url: https://www.linkedin.com/in/bchiang7
+    url: https://www.linkedin.com/in/sanathkumarbs
+  - title: github
+    url: https://github.com/sanathkumarbs
+  - title: instagram
+    url: https://instagram.com/sanathkumarbs
+  - title: twitter
+    url: https://twitter.com/sanathkumarbs
 
 # Build settings
 markdown: kramdown

@@ -1,18 +1,18 @@
 {
-  "name": "brittanychiang.com",
+  "name": "sanathk.com",
   "version": "0.0.0",
-  "description": "Design-minded front-end software engineer focused on building beautiful interfaces and experiences",
+  "description": "Software engineer focused on building products, services to make customers and engineers life better",
   "main": "gulpfile.js",
   "scripts": {
     "start": "gulp serve",
     "build": "gulp build"
   },
-  "author": "Brittany Chiang",
+  "author": "Sanath Kumar",
   "license": "ISC",
   "devDependencies": {
     "@nuscout/eslint-config": "^0.2.1",
     "browser-sync": "^2.24.5",
-    "gulp": "3.9.1",
+    "gulp": "^3.9.1",
     "gulp-autoprefixer": "^5.0.0",
     "gulp-clean-css": "3.9.4",
     "gulp-eslint": "5.0.0",
@@ -22,7 +22,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bchiang7/bchiang7.github.io"
+    "url": "https://github.com/sanathkumarbs/sanathkumarbs.github.io"
   },
-  "homepage": "https://github.com/bchiang7/bchiang7.github.io"
+  "homepage": "https://github.com/sanathkumarbs/sanathkumarbs.github.io"
 }
