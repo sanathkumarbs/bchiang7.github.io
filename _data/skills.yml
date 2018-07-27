@@ -1,33 +1,45 @@
 languages:
-  - item: JavaScript (ES6)
-  - item: TypeScript
-  - item: HTML
-  - item: CSS/Sass
   - item: Python
+  - item: Java
+  - item: Bash
+  - item: JavaScript
   - item: SQL
   - item: R
+  - item: HTML / CSS
 
-frameworks:
-  - item: Ember & Glimmer
-  - item: React
-  - item: Jekyll
-  - item: Node
-  - item: D3
-  - item: Wordpress
-  - item: Timber
+technologies:
+  - item: Linux
+  - item: Flask
+  - item: Celery
+  - item: OpenStack
+  - item: AWS / Azure / GCP
+  - item: SQL / NoSQL 
 
-tools:
-  - item: Bash
-  - item: Git & Github
-  - item: Gulp & Grunt
-  - item: Chrome DevTools
+interests:
+  - item: Software Development
+  - item: Software Design
+  - item: Distributed Systems
+  - item: Cloud Services
+  - item: Microservices (REST)
+  - item: Web Applications
+  - item: Data Science
+  - item: Computer Networking
+
+tools1:
+  - item: HTML / CSS
+  - item: Jenkins
+  - item: Ansible
+  - item: Docker
+  - item: Git
+  - item: P4 Perforce
+
+tools2:
+  - item: Swagger
   - item: Postman
-  - item: MongoDB
+  - item: F5 BIG-IPs / nginx
 
-design:
-  - item: Sketch
-  - item: InDesign
-  - item: InVision
-  - item: Prototyping
-  - item: Wireframing
-  - item: User Testing
+tools3:
+  - item: vim
+  - item: Visual Studio Code
+  - item: Sublime Text
+  - item: Jira, Kanban, Trello
