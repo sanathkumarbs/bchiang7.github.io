@@ -1,5 +1,6 @@
 languages:
   - item: Python
+  - item: GoLang
   - item: Java
   - item: Bash
   - item: JavaScript
@@ -8,35 +9,37 @@ languages:
   - item: HTML / CSS
 
 technologies:
-  - item: Linux
+  - item: Kubernetes
+  - item: Docker
+  - item: Linux OS
   - item: Flask
-  - item: Celery
   - item: OpenStack
-  - item: AWS / Azure / GCP
-  - item: SQL / NoSQL 
+  - item: Public Cloud (Amazon AWS)
+  - item: RDBMS / NoSQL
 
 interests:
   - item: Software Development
   - item: Software Design
   - item: Distributed Systems
-  - item: Cloud Services
+  - item: Cloud Computing
   - item: Microservices (REST)
-  - item: Web Applications
+  - item: Web Development
   - item: Data Science
   - item: Computer Networking
+  - item: PaaS/IaaS/SaaS
 
 tools1:
-  - item: HTML / CSS
-  - item: Jenkins
   - item: Ansible
-  - item: Docker
   - item: Git
   - item: P4 Perforce
+  - item: MySQL / PostgreSQL
+  - item: Firebase / Redis
 
 tools2:
   - item: Swagger
   - item: Postman
-  - item: F5 BIG-IPs / nginx
+  - item: Jenkins
+  - item: F5 BIG-IP / nginx
 
 tools3:
   - item: vim
