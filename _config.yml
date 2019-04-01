@@ -15,10 +15,10 @@ social:
     url: https://www.linkedin.com/in/sanathkumarbs
   - title: github
     url: https://github.com/sanathkumarbs
-  - title: instagram
-    url: https://instagram.com/sanathkumarbs
-  - title: twitter
-    url: https://twitter.com/sanathkumarbs
+  # - title: instagram
+  #   url: https://instagram.com/sanathkumarbs
+  # - title: twitter
+  #   url: https://twitter.com/sanathkumarbs
 
 # Build settings
 markdown: kramdown
